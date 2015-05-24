@@ -79,20 +79,20 @@
     <Import Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Box.vb" />
-    <Compile Include="Computer.vb" />
-    <Compile Include="Checkers.vb" />
-    <Compile Include="Enumerations.vb" />
-    <Compile Include="frmChessboard.Designer.vb">
+    <Compile Include="GameEngine\Box.vb" />
+    <Compile Include="GameEngine\Computer.vb" />
+    <Compile Include="GameEngine\Checkers.vb" />
+    <Compile Include="GameEngine\Enumerations.vb" />
+    <Compile Include="Forms\frmChessboard.Designer.vb">
       <DependentUpon>frmChessboard.vb</DependentUpon>
     </Compile>
-    <Compile Include="frmChessboard.vb">
+    <Compile Include="Forms\frmChessboard.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmStart.vb">
+    <Compile Include="Forms\frmStart.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmStart.Designer.vb">
+    <Compile Include="Forms\frmStart.Designer.vb">
       <DependentUpon>frmStart.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
@@ -113,11 +113,11 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="frmChessboard.resx">
+    <EmbeddedResource Include="Forms\frmChessboard.resx">
       <SubType>Designer</SubType>
       <DependentUpon>frmChessboard.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmStart.resx">
+    <EmbeddedResource Include="Forms\frmStart.resx">
       <SubType>Designer</SubType>
       <DependentUpon>frmStart.vb</DependentUpon>
     </EmbeddedResource>
